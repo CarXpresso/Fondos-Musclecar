@@ -1,153 +1,669 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fondos Premium HD/4K</title>
-    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#3B82F6',
-                        secondary: '#6B7280'
-                    },
-                    borderRadius: {
-                        'none': '0px',
-                        'sm': '4px',
-                        DEFAULT: '8px',
-                        'md': '12px',
-                        'lg': '16px',
-                        'xl': '20px',
-                        '2xl': '24px',
-                        '3xl': '32px',
-                        'full': '9999px',
-                        'button': '8px'
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        :where([class^="ri-"])::before { content: "\f3c2"; }
-        body { background-color: #FAFAFA; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fondos Premium HD/4K</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#3B82F6',
+secondary: '#6B7280'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body { background-color: #FAFAFA; }
+</style>
 </head>
 <body class="w-[375px] min-h-[762px] mx-auto relative pb-16">
-    <nav class="fixed top-0 w-[375px] z-50 bg-white shadow-sm">
-        <div class="flex items-center justify-between px-4 h-14">
-            <div class="w-8 h-8 flex items-center justify-center cursor-pointer">
-                <i class="ri-menu-line text-xl"></i>
-            </div>
-            <h1 class="text-lg font-medium">Fondos Premium</h1>
-            <div class="w-8 h-8 flex items-center justify-center cursor-pointer">
-                <i class="ri-shopping-cart-2-line text-xl"></i>
-            </div>
-        </div>
-    </nav>
-
-    <main class="mt-14 px-4">
-        <div class="relative w-full h-48 rounded-lg overflow-hidden mb-6">
-            <img src="https://readdy.ai/api/search-image?query=dark%20moody%20weather%2C%20dramatic%20cloudy%20sky%20over%20a%20black%20Dodge%20Challenger%20Hellcat%2C%20cinematic%20lighting%2C%20professional%20automotive%20photography%2C%20high%20resolution%204K%2C%20dark%20atmosphere&width=800&height=400&seq=1&orientation=landscape" class="w-full h-full object-cover" alt="Banner">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                <div class="text-white">
-                    <h2 class="text-xl font-bold mb-1">Packs Premium</h2>
-                    <p class="text-sm opacity-90">Fondos exclusivos en HD y 4K</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-2 gap-4">
-            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-                <div class="relative">
-                    <img src="https://readdy.ai/api/search-image?query=moody%20weather%2C%20dramatic%20cloudy%20sky%20over%20modern%20sports%20cars%2C%20professional%20automotive%20photography%2C%20dark%20atmosphere&width=400&height=300&seq=2&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 1">
-                    <span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
-                </div>
-                <div class="p-3">
-                    <h3 class="font-medium mb-1">Pack Clima Dramático</h3>
-                    <p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
-                    <button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-                <div class="relative">
-                    <img src="https://readdy.ai/api/search-image?query=urban%20night%20scene%20with%20Dodge%20Challenger%20Hellcat%2C%20city%20lights%2C%20moody%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=3&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 2">
-                    <span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
-                </div>
-                <div class="p-3">
-                    <h3 class="font-medium mb-1">Pack Ciudad Nocturna</h3>
-                    <p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
-                    <button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-                <div class="relative">
-                    <img src="https://readdy.ai/api/search-image?query=rainy%20day%20with%20muscle%20cars%2C%20water%20droplets%2C%20moody%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=4&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 3">
-                    <span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
-                </div>
-                <div class="p-3">
-                    <h3 class="font-medium mb-1">Pack Lluvia</h3>
-                    <p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
-                    <button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow-sm overflow-hidden">
-                <div class="relative">
-                    <img src="https://readdy.ai/api/search-image?query=foggy%20morning%20with%20Dodge%20Challenger%20Hellcat%2C%20misty%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=5&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 4">
-                    <span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
-                </div>
-                <div class="p-3">
-                    <h3 class="font-medium mb-1">Pack Niebla</h3>
-                    <p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
-                    <button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <nav class="fixed bottom-0 w-[375px] bg-white border-t border-gray-200">
-        <div class="grid grid-cols-4 h-16">
-            <a class="flex flex-col items-center justify-center">
-                <i class="ri-home-5-line text-lg"></i>
-                <span class="text-xs mt-1">Inicio</span>
-            </a>
-            <a class="flex flex-col items-center justify-center">
-                <i class="ri-search-line text-lg"></i>
-                <span class="text-xs mt-1">Buscar</span>
-            </a>
-            <a class="flex flex-col items-center justify-center">
-                <i class="ri-heart-line text-lg"></i>
-                <span class="text-xs mt-1">Favoritos</span>
-            </a>
-            <a class="flex flex-col items-center justify-center">
-                <i class="ri-user-line text-lg"></i>
-                <span class="text-xs mt-1">Perfil</span>
-            </a>
-        </div>
-    </nav>
-
-    <script id="cartLogic">
-        document.addEventListener('DOMContentLoaded', function() {
-            const buyButtons = document.querySelectorAll('button');
-            buyButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const pack = this.closest('div').querySelector('h3').textContent;
-                    const cartIcon = document.querySelector('.ri-shopping-cart-2-line');
-                    cartIcon.classList.add('text-primary');
-                    setTimeout(() => {
-                        cartIcon.classList.remove('text-primary');
-                    }, 1000);
-                });
-            });
-        });
-    </script>
+<div id="previewModal" class="fixed inset-0 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 z-[80] flex items-center justify-center">
+<div class="w-full bg-white rounded-t-2xl translate-y-full transition-transform duration-300 absolute bottom-0">
+<div class="flex items-center justify-between p-4 border-b">
+<h3 class="text-lg font-medium">Vista previa del pack</h3>
+<button id="closePreview" class="w-8 h-8 flex items-center justify-center">
+<i class="ri-close-line text-xl"></i>
+</button>
+</div>
+<div class="p-4 max-h-[60vh] overflow-y-auto">
+<div class="grid grid-cols-2 gap-3" id="previewGrid"></div>
+</div>
+<div class="p-4 border-t">
+<button id="previewBuyButton" class="w-full bg-primary text-white py-3 rounded-button font-medium">
+Comprar pack
+</button>
+</div>
+</div>
+</div>
+<div id="toast" class="fixed bottom-20 left-1/2 -translate-x-1/2 bg-white rounded-lg shadow-lg p-4 flex items-center gap-3 transition-all duration-300 transform translate-y-full opacity-0 z-50 w-[90%]">
+<div class="flex-1">
+<p id="toastTitle" class="font-medium"></p>
+<p id="toastPrice" class="text-sm text-gray-500"></p>
+</div>
+<button id="toastCartButton" class="bg-primary text-white px-4 py-2 rounded-button text-sm">Ver carrito</button>
+</div>
+<div id="sideMenu" class="fixed top-0 left-0 w-[70%] h-full bg-white -translate-x-full transition-transform duration-300 z-[60] shadow-lg">
+<div class="flex justify-end p-4">
+<button id="closeMenu" class="w-8 h-8 flex items-center justify-center">
+<i class="ri-close-line text-xl"></i>
+</button>
+</div>
+<div class="px-4">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+<i class="ri-user-line text-xl text-primary"></i>
+</div>
+<div>
+<h3 class="font-medium">Invitado</h3>
+<p class="text-xs text-gray-500">Iniciar sesión</p>
+</div>
+</div>
+<nav class="space-y-4">
+<a class="flex items-center gap-3 py-2">
+<i class="ri-home-5-line text-lg text-gray-600"></i>
+<span>Inicio</span>
+</a>
+<a class="flex items-center gap-3 py-2">
+<i class="ri-apps-line text-lg text-gray-600"></i>
+<span>Categorías</span>
+</a>
+<a class="flex items-center gap-3 py-2">
+<i class="ri-price-tag-3-line text-lg text-gray-600"></i>
+<span>Ofertas especiales</span>
+</a>
+<a class="flex items-center gap-3 py-2">
+<i class="ri-shopping-bag-line text-lg text-gray-600"></i>
+<span>Mis compras</span>
+</a>
+<a class="flex items-center gap-3 py-2">
+<i class="ri-question-line text-lg text-gray-600"></i>
+<span>Ayuda</span>
+</a>
+<a class="flex items-center gap-3 py-2">
+<i class="ri-customer-service-line text-lg text-gray-600"></i>
+<span>Contacto</span>
+</a>
+</nav>
+</div>
+</div>
+<div id="menuOverlay" class="fixed inset-0 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 z-[55]"></div>
+<nav class="fixed top-0 w-[375px] z-50 bg-white shadow-sm">
+<div class="flex items-center justify-between px-4 h-14">
+<div id="menuButton" class="w-8 h-8 flex items-center justify-center cursor-pointer">
+<i class="ri-menu-line text-xl"></i>
+</div>
+<h1 class="text-lg font-medium">Fondos Premium</h1>
+<div id="cartButton" class="w-8 h-8 flex items-center justify-center cursor-pointer relative">
+<i class="ri-shopping-cart-2-line text-xl"></i>
+<span id="cartCounter" class="absolute -top-1 -right-1 bg-primary text-white text-xs w-4 h-4 rounded-full flex items-center justify-center transform scale-0 transition-transform duration-300"></span>
+</div>
+</div>
+</nav>
+<div id="cartModal" class="fixed inset-0 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 z-[70] flex items-end">
+<div class="w-full bg-white rounded-t-2xl translate-y-full transition-transform duration-300">
+<div class="flex items-center justify-between p-4 border-b">
+<h3 class="text-lg font-medium">Carrito de compra</h3>
+<button id="closeCart" class="w-8 h-8 flex items-center justify-center">
+<i class="ri-close-line text-xl"></i>
+</button>
+</div>
+<div id="cartContent" class="p-4 max-h-[60vh] overflow-y-auto">
+<div id="emptyCart" class="py-8 text-center">
+<i class="ri-shopping-cart-line text-4xl text-gray-300 mb-3"></i>
+<p class="text-gray-500">Tu carrito está vacío</p>
+</div>
+<div id="cartItems" class="hidden space-y-4"></div>
+</div>
+<div id="cartSummary" class="p-4 border-t hidden">
+<div class="flex justify-between mb-4">
+<span class="font-medium">Total:</span>
+<span id="cartTotal" class="font-medium">0€</span>
+</div>
+<button id="checkoutButton" class="w-full bg-primary text-white py-3 rounded-button font-medium">
+Finalizar compra
+</button>
+</div>
+</div>
+</div>
+<main class="mt-14 px-4">
+<div class="relative w-full h-48 rounded-lg overflow-hidden mb-6">
+<img src="https://readdy.ai/api/search-image?query=dark%20moody%20weather%2C%20dramatic%20cloudy%20sky%20over%20a%20black%20Dodge%20Challenger%20Hellcat%2C%20cinematic%20lighting%2C%20professional%20automotive%20photography%2C%20high%20resolution%204K%2C%20dark%20atmosphere&width=800&height=400&seq=1&orientation=landscape" class="w-full h-full object-cover" alt="Banner">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+<div class="text-white">
+<h2 class="text-xl font-bold mb-1">Packs Premium</h2>
+<p class="text-sm opacity-90">Fondos exclusivos en HD y 4K</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=moody%20weather%2C%20dramatic%20cloudy%20sky%20over%20modern%20sports%20cars%2C%20professional%20automotive%20photography%2C%20dark%20atmosphere&width=400&height=300&seq=2&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 1">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Clima Dramático</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
+<div class="flex gap-2">
+<button class="flex-1 bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+<button class="preview-button bg-white border border-primary text-primary py-2 px-3 text-sm rounded-button">
+<i class="ri-eye-line"></i>
+</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=urban%20night%20scene%20with%20Dodge%20Challenger%20Hellcat%2C%20city%20lights%2C%20moody%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=3&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 2">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Ciudad Nocturna</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=rainy%20day%20with%20muscle%20cars%2C%20water%20droplets%2C%20moody%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=4&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 3">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Lluvia</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=foggy%20morning%20with%20Dodge%20Challenger%20Hellcat%2C%20misty%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=5&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 4">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Niebla</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=sunset%20with%20classic%20muscle%20cars%2C%20golden%20hour%2C%20professional%20automotive%20photography&width=400&height=300&seq=6&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 5">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Atardecer</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=mountain%20roads%20with%20sports%20cars%2C%20scenic%20landscape%2C%20professional%20automotive%20photography&width=400&height=300&seq=7&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 6"><span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Montaña</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=beach%20scenes%20with%20luxury%20cars%2C%20coastal%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=8&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 7"><span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Playa</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=desert%20landscape%20with%20off-road%20vehicles%2C%20sandy%20terrain%2C%20professional%20automotive%20photography&width=400&height=300&seq=9&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 8">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Desierto</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=autumn%20scenery%20with%20vintage%20cars%2C%20fall%20colors%2C%20professional%20automotive%20photography&width=400&height=300&seq=10&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 9">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Otoño</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en HD</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm overflow-hidden">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=winter%20snow%20scenes%20with%20sports%20cars%2C%20snowy%20landscape%2C%20professional%20automotive%20photography&width=400&height=300&seq=11&orientation=landscape" class="w-full h-40 object-cover" alt="Pack 10">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">2€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">Pack Invierno</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en 4K</p>
+<button class="w-full bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+</div>
+</div>
+</div>
+<div class="flex justify-center mt-6 mb-6">
+<button id="loadMore" class="bg-primary text-white px-6 py-3 rounded-button flex items-center gap-2">
+<span>Cargar más packs</span>
+<i class="ri-arrow-down-line"></i>
+</button>
+</div>
+</main>
+<nav class="fixed bottom-0 w-[375px] bg-white border-t border-gray-200">
+<div class="grid grid-cols-4 h-16">
+<a class="flex flex-col items-center justify-center">
+<i class="ri-home-5-line text-lg"></i>
+<span class="text-xs mt-1">Inicio</span>
+</a>
+<a class="flex flex-col items-center justify-center">
+<i class="ri-search-line text-lg"></i>
+<span class="text-xs mt-1">Buscar</span>
+</a>
+<a class="flex flex-col items-center justify-center">
+<i class="ri-heart-line text-lg"></i>
+<span class="text-xs mt-1">Favoritos</span>
+</a>
+<a class="flex flex-col items-center justify-center">
+<i class="ri-user-line text-lg"></i>
+<span class="text-xs mt-1">Perfil</span>
+</a>
+</div>
+</nav>
+<script id="menuLogic">
+document.addEventListener('DOMContentLoaded', function() {
+const menuButton = document.getElementById('menuButton');
+const closeMenu = document.getElementById('closeMenu');
+const sideMenu = document.getElementById('sideMenu');
+const menuOverlay = document.getElementById('menuOverlay');
+function openMenu() {
+sideMenu.classList.remove('-translate-x-full');
+menuOverlay.classList.add('opacity-100');
+menuOverlay.classList.remove('pointer-events-none');
+document.body.style.overflow = 'hidden';
+}
+function closeMenu() {
+sideMenu.classList.add('-translate-x-full');
+menuOverlay.classList.remove('opacity-100');
+menuOverlay.classList.add('pointer-events-none');
+document.body.style.overflow = '';
+}
+menuButton.addEventListener('click', openMenu);
+closeMenu.addEventListener('click', closeMenu);
+menuOverlay.addEventListener('click', closeMenu);
+});
+</script>
+<script id="cartLogic">
+document.addEventListener('DOMContentLoaded', function() {
+let currentPage = 1;
+const previewModal = document.getElementById('previewModal');
+const closePreview = document.getElementById('closePreview');
+const previewGrid = document.getElementById('previewGrid');
+const previewBuyButton = document.getElementById('previewBuyButton');
+let currentPackData = null;
+function openPreview(packName, packImage) {
+currentPackData = { name: packName, image: packImage };
+const previewModal = document.getElementById('previewModal');
+const previewGrid = document.getElementById('previewGrid');
+previewModal.classList.remove('opacity-0', 'pointer-events-none');
+previewModal.querySelector('.bg-white').classList.remove('translate-y-full');
+document.body.style.overflow = 'hidden';
+const variations = [
+'dramatic cloudy', 'stormy weather', 'lightning storm', 'dark clouds',
+'rain drops', 'misty morning', 'foggy scene', 'moody atmosphere',
+'thunder clouds', 'overcast sky'
+];
+previewGrid.innerHTML = variations.map((variation, index) => `
+<div class="aspect-video rounded-lg overflow-hidden cursor-pointer preview-image-container">
+<img src="https://readdy.ai/api/search-image?query=$%7BencodeURIComponent%28%60$%7Bvariation%7D%20with%20sports%20cars%2C%20professional%20automotive%20photography%2C%20$%7BpackName.toLowerCase%28%29%7D%60%29%7D&width=400&height=300&seq=${index + 30}&orientation=landscape"
+class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" 
+alt="${packName} ${index + 1}"
+data-full-image="https://readdy.ai/api/search-image?query=$%7BencodeURIComponent%28%60$%7Bvariation%7D%20with%20sports%20cars%2C%20professional%20automotive%20photography%2C%20$%7BpackName.toLowerCase%28%29%7D%60%29%7D&width=800&height=600&seq=${index + 30}&orientation=landscape">
+</div>
+`).join('');
+const imageModal = document.createElement('div');
+imageModal.id = 'imageModal';
+imageModal.className = 'fixed inset-0 bg-black/90 z-[90] opacity-0 pointer-events-none flex items-center justify-center transition-opacity duration-300';
+imageModal.innerHTML = `
+<div class="relative w-full h-full flex items-center justify-center p-4">
+<button class="absolute top-4 right-4 text-white w-10 h-10 flex items-center justify-center">
+<i class="ri-close-line text-2xl"></i>
+</button>
+<img class="max-w-full max-h-full object-contain" src="" alt="Full size image">
+</div>
+`;
+if (!document.getElementById('imageModal')) {
+document.body.appendChild(imageModal);
+}
+const previewImages = previewGrid.querySelectorAll('.preview-image-container');
+previewImages.forEach(container => {
+container.addEventListener('click', function() {
+const fullImage = this.querySelector('img').getAttribute('data-full-image');
+const imageModal = document.getElementById('imageModal');
+const modalImg = imageModal.querySelector('img');
+modalImg.src = fullImage;
+imageModal.classList.remove('opacity-0', 'pointer-events-none');
+document.body.style.overflow = 'hidden';
+});
+});
+const imageModalClose = document.getElementById('imageModal').querySelector('button');
+imageModalClose.addEventListener('click', function() {
+document.getElementById('imageModal').classList.add('opacity-0', 'pointer-events-none');
+document.body.style.overflow = '';
+});
+document.getElementById('imageModal').addEventListener('click', function(e) {
+if (e.target === this) {
+this.classList.add('opacity-0', 'pointer-events-none');
+document.body.style.overflow = '';
+}
+});
+}
+function closePreview() {
+previewModal.classList.add('opacity-0', 'pointer-events-none');
+previewModal.querySelector('.bg-white').classList.add('translate-y-full');
+document.body.style.overflow = '';
+currentPackData = null;
+}
+closePreview.addEventListener('click', closePreview);
+previewModal.addEventListener('click', (e) => {
+if (e.target === previewModal) closePreview();
+});
+previewBuyButton.addEventListener('click', function() {
+if (currentPackData) {
+closePreview();
+const price = 2;
+cart.push({
+name: currentPackData.name,
+price: price,
+image: currentPackData.image
+});
+updateCartUI();
+updateCartCounter();
+showToast(currentPackData.name, price);
+}
+});
+const totalPacks = 30;
+const packsPerPage = 10;
+let cart = [];
+function showToast(title, price) {
+const toast = document.getElementById('toast');
+const toastTitle = document.getElementById('toastTitle');
+const toastPrice = document.getElementById('toastPrice');
+toastTitle.textContent = title;
+toastPrice.textContent = price + '€';
+toast.classList.remove('translate-y-full', 'opacity-0');
+setTimeout(() => {
+toast.classList.add('translate-y-full', 'opacity-0');
+}, 3000);
+}
+function updateCartCounter() {
+const counter = document.getElementById('cartCounter');
+if (cart.length > 0) {
+counter.textContent = cart.length;
+counter.classList.remove('scale-0');
+} else {
+counter.classList.add('scale-0');
+}
+}
+document.getElementById('toastCartButton').addEventListener('click', function() {
+openCart();
+document.getElementById('toast').classList.add('translate-y-full', 'opacity-0');
+});
+const cartModal = document.getElementById('cartModal');
+const cartButton = document.getElementById('cartButton');
+const closeCart = document.getElementById('closeCart');
+const cartContent = document.getElementById('cartContent');
+const emptyCart = document.getElementById('emptyCart');
+const cartItems = document.getElementById('cartItems');
+const cartSummary = document.getElementById('cartSummary');
+const cartTotal = document.getElementById('cartTotal');
+const checkoutButton = document.getElementById('checkoutButton');
+function openCart() {
+cartModal.classList.remove('opacity-0', 'pointer-events-none');
+cartModal.querySelector('.bg-white').classList.remove('translate-y-full');
+document.body.style.overflow = 'hidden';
+}
+function closeCart() {
+cartModal.classList.add('opacity-0', 'pointer-events-none');
+cartModal.querySelector('.bg-white').classList.add('translate-y-full');
+document.body.style.overflow = '';
+}
+function updateCartUI() {
+if (cart.length === 0) {
+emptyCart.classList.remove('hidden');
+cartItems.classList.add('hidden');
+cartSummary.classList.add('hidden');
+} else {
+emptyCart.classList.add('hidden');
+cartItems.classList.remove('hidden');
+cartSummary.classList.remove('hidden');
+cartItems.innerHTML = cart.map(item => `
+<div class="flex items-center gap-3">
+<img src="${item.image}" class="w-20 h-16 object-cover rounded" alt="${item.name}">
+<div class="flex-1">
+<h4 class="font-medium">${item.name}</h4>
+<p class="text-sm text-gray-500">${item.price}€</p>
+</div>
+<button class="text-red-500 p-2" onclick="removeFromCart('${item.name}')">
+<i class="ri-delete-bin-line"></i>
+</button>
+</div>
+`).join('');
+const total = cart.reduce((sum, item) => sum + item.price, 0);
+cartTotal.textContent = total + '€';
+}
+}
+window.removeFromCart = function(name) {
+cart = cart.filter(item => item.name !== name);
+updateCartUI();
+updateCartCounter();
+}
+function initializePackButtons(container) {
+const buyButton = container.querySelector('button:not(.preview-button)');
+const previewButton = container.querySelector('.preview-button');
+const packName = container.querySelector('h3').textContent;
+const packImage = container.querySelector('img').src;
+if (buyButton) {
+buyButton.addEventListener('click', function() {
+const price = parseInt(container.querySelector('.bg-primary').textContent);
+cart.push({ name: packName, price, image: packImage });
+updateCartUI();
+updateCartCounter();
+showToast(packName, price);
+const cartIcon = document.querySelector('.ri-shopping-cart-2-line');
+cartIcon.classList.add('text-primary');
+setTimeout(() => {
+cartIcon.classList.remove('text-primary');
+}, 1000);
+});
+}
+if (previewButton) {
+previewButton.addEventListener('click', function() {
+openPreview(packName, packImage);
+});
+}
+}
+document.querySelectorAll('.bg-white').forEach(container => {
+initializePackButtons(container);
+});
+button.addEventListener('click', function() {
+const container = this.closest('.bg-white');
+if (!container) return;
+const name = container.querySelector('h3').textContent;
+const price = parseInt(container.querySelector('.bg-primary').textContent);
+const image = container.querySelector('img').src;
+cart.push({ name, price, image });
+updateCartUI();
+updateCartCounter();
+showToast(name, price);
+const cartIcon = document.querySelector('.ri-shopping-cart-2-line');
+cartIcon.classList.add('text-primary');
+setTimeout(() => {
+cartIcon.classList.remove('text-primary');
+}, 1000);
+});
+});
+cartButton.addEventListener('click', openCart);
+closeCart.addEventListener('click', closeCart);
+cartModal.addEventListener('click', (e) => {
+if (e.target === cartModal) closeCart();
+});
+checkoutButton.addEventListener('click', function() {
+if (cart.length > 0) {
+alert('Procesando el pago...');
+}
+});
+const loadMoreButton = document.getElementById('loadMore');
+if (loadMoreButton) {
+loadMoreButton.addEventListener('click', async function() {
+const button = this;
+const buttonText = button.querySelector('span');
+const buttonIcon = button.querySelector('i');
+const originalText = buttonText.textContent;
+buttonText.textContent = 'Cargando...';
+buttonIcon.className = 'ri-loader-4-line animate-spin';
+button.disabled = true;
+await new Promise(resolve => setTimeout(resolve, 1000));
+const grid = document.querySelector('.grid');
+const newPacks = [
+{
+name: 'Pack Amanecer',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=sunrise%20with%20luxury%20sports%20cars%2C%20morning%20light%2C%20professional%20automotive%20photography&width=400&height=300&seq=12&orientation=landscape',
+resolution: '4K'
+},
+{
+name: 'Pack Circuito',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=race%20track%20with%20high%20performance%20cars%2C%20racing%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=13&orientation=landscape',
+resolution: 'HD'
+},
+{
+name: 'Pack Garaje',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=luxury%20garage%20with%20exotic%20cars%2C%20modern%20interior%2C%20professional%20automotive%20photography&width=400&height=300&seq=14&orientation=landscape',
+resolution: '4K'
+},
+{
+name: 'Pack Industrial',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=industrial%20setting%20with%20muscle%20cars%2C%20urban%20environment%2C%20professional%20automotive%20photography&width=400&height=300&seq=15&orientation=landscape',
+resolution: 'HD'
+},
+{
+name: 'Pack Retro',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=vintage%20cars%20in%20retro%20setting%2C%20classic%20atmosphere%2C%20professional%20automotive%20photography&width=400&height=300&seq=16&orientation=landscape',
+resolution: '4K'
+},
+{
+name: 'Pack Velocidad',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=high%20speed%20cars%20in%20motion%2C%20dynamic%20shots%2C%20professional%20automotive%20photography&width=400&height=300&seq=17&orientation=landscape',
+resolution: 'HD'
+},
+{
+name: 'Pack Urbano',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=urban%20cityscape%20with%20modern%20cars%2C%20street%20photography%2C%20professional%20automotive%20photography&width=400&height=300&seq=18&orientation=landscape',
+resolution: '4K'
+},
+{
+name: 'Pack Túnel',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=tunnel%20scenes%20with%20sports%20cars%2C%20dramatic%20lighting%2C%20professional%20automotive%20photography&width=400&height=300&seq=19&orientation=landscape',
+resolution: 'HD'
+},
+{
+name: 'Pack Puente',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=bridge%20scenes%20with%20luxury%20cars%2C%20architectural%20elements%2C%20professional%20automotive%20photography&width=400&height=300&seq=20&orientation=landscape',
+resolution: '4K'
+},
+{
+name: 'Pack Noche',
+price: 2,
+image: 'https://readdy.ai/api/search-image?query=night%20city%20with%20sports%20cars%2C%20neon%20lights%2C%20professional%20automotive%20photography&width=400&height=300&seq=21&orientation=landscape',
+resolution: 'HD'
+}
+];
+newPacks.forEach(pack => {
+const packElement = document.createElement('div');
+packElement.className = 'bg-white rounded-lg shadow-sm overflow-hidden';
+packElement.innerHTML = `
+<div class="relative">
+<img src="${pack.image}" class="w-full h-40 object-cover" alt="${pack.name}">
+<span class="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-xs">${pack.price}€</span>
+</div>
+<div class="p-3">
+<h3 class="font-medium mb-1">${pack.name}</h3>
+<p class="text-xs text-gray-500 mb-2">10 fondos en ${pack.resolution}</p>
+<div class="flex gap-2">
+<button class="flex-1 bg-primary text-white py-2 text-sm rounded-button">Comprar Ahora</button>
+<button class="preview-button bg-white border border-primary text-primary py-2 px-3 text-sm rounded-button">
+<i class="ri-eye-line"></i>
+</button>
+</div>
+</div>
+`;
+initializePackButtons(packElement);
+const container = this.closest('.bg-white');
+if (!container) return;
+const name = container.querySelector('h3').textContent;
+const price = parseInt(container.querySelector('.bg-primary').textContent);
+const image = container.querySelector('img').src;
+cart.push({ name, price, image });
+updateCartUI();
+updateCartCounter();
+showToast(name, price);
+const cartIcon = document.querySelector('.ri-shopping-cart-2-line');
+cartIcon.classList.add('text-primary');
+setTimeout(() => {
+cartIcon.classList.remove('text-primary');
+}, 1000);
+});
+grid.appendChild(packElement);
+});
+currentPage++;
+if (currentPage * packsPerPage >= totalPacks) {
+button.style.display = 'none';
+} else {
+buttonText.textContent = originalText;
+buttonIcon.className = 'ri-arrow-down-line';
+button.disabled = false;
+}
+});
+}
+});
+</script>
 </body>
 </html>
